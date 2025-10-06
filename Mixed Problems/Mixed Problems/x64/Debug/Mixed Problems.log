@@ -1,0 +1,4 @@
+﻿  Source1.cpp
+E:\University\Learning Game Coding\Mixed Problems\Source1.cpp(8,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+Source1.obj : error LNK2005: main already defined in Source.obj
+E:\University\Learning Game Coding\Mixed Problems\x64\Debug\Mixed Problems.exe : fatal error LNK1169: one or more multiply defined symbols found

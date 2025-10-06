@@ -1,0 +1,256 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'price'."
+          },
+          "analysisTarget": {
+            "uri": "file:///e:/university/learning game coding/mixed problems program 2/source.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'price' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 10,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/University/Learning Game Coding/Mixed Problems program 2/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'price' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35217.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/university/learning game coding/mixed problems program 2/source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "42b674bc24bde48874050a2fb83eb5fd7ff28b6081173dd2b45eec9453ccf189"
+          }
+        }
+      ]
+    }
+  ]
+}

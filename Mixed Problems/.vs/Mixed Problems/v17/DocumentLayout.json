@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\University\\Learning Game Coding\\Mixed Problems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5755FD9F-9B33-4B6F-A0AB-88B39556A6F0}|Mixed Problems.vcxproj|E:\\University\\Learning Game Coding\\Mixed Problems\\Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5755FD9F-9B33-4B6F-A0AB-88B39556A6F0}|Mixed Problems.vcxproj|solutionrelative:Source1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5755FD9F-9B33-4B6F-A0AB-88B39556A6F0}|Mixed Problems.vcxproj|E:\\University\\Learning Game Coding\\Mixed Problems\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5755FD9F-9B33-4B6F-A0AB-88B39556A6F0}|Mixed Problems.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source1.cpp",
+              "DocumentMoniker": "E:\\University\\Learning Game Coding\\Mixed Problems\\Source1.cpp",
+              "RelativeDocumentMoniker": "Source1.cpp",
+              "ToolTip": "E:\\University\\Learning Game Coding\\Mixed Problems\\Source1.cpp*",
+              "RelativeToolTip": "Source1.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T17:32:18.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "E:\\University\\Learning Game Coding\\Mixed Problems\\Source.cpp",
+              "RelativeDocumentMoniker": "Source.cpp",
+              "ToolTip": "E:\\University\\Learning Game Coding\\Mixed Problems\\Source.cpp",
+              "RelativeToolTip": "Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T17:29:16.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

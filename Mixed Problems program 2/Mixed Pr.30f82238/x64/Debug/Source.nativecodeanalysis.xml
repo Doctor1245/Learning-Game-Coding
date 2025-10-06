@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+      <FILENAME>Source.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'price'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'price' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\University\Learning Game Coding\Mixed Problems program 2\</FILEPATH>
+        <FILENAME>Source.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'price' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

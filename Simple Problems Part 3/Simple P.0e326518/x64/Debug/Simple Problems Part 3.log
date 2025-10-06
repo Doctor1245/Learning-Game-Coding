@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\University\Learning Game Coding\Simple Problems Part 3\Source.cpp(12,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\University\Learning Game Coding\Simple Problems Part 3\Source.cpp(14,7): error C2143: syntax error: missing ';' before 'constant'
+E:\University\Learning Game Coding\Simple Problems Part 3\Source.cpp(14,2): warning C4551: function call missing argument list
