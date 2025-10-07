@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//this program will calculate VAT (Value Added Tax) for a given price asking the user for the price (in £) then print the 
-//price using a float and using the 20% VAT rate and then caculate the total price including VAT and print that too.
-// I have not added any error checking for negative numbers or non-numeric input as this is a simple program. 
-// using Printf_s and Scanf_s for secure input and output.
+//this program will calculate VAT (Value Added Tax) for a given price asking the user for the price (in £)
 int main(int argc, char** argv)
 {
 	float price, vat, total;
